@@ -1,0 +1,4 @@
+Peso = imput("Ingrse su peso en kg")
+Estatura = imput("Ingrese su estatura")
+IMC = round(float(Peso) / float(Estatura)**2,2)
+print("Ti IMC es de " , IMC)
